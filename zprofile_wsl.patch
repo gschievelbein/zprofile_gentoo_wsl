@@ -1,0 +1,8 @@
+2a3,5
+> # Back up PATH set by WSL because it might be overwritten by profile.env
+> WSLPATH="${PATH}"
+> 
+7a11,13
+> 
+> export PATH="${PATH}:${WSLPATH}"
+> unset WSLPATH
